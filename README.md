@@ -128,9 +128,9 @@ You can run this locally using Streamlit or deploy it on:
 
 | Train Mode | Predict Mode |
 |------------|---------------|
-| ![image](https://github.com/user-attachments/assets/b2aa026c-7a54-4830-811b-65d8d998bd7c)
- |![image](https://github.com/user-attachments/assets/4d26705c-f767-4de3-97bc-53579a920892)
- |
+| ![image](https://github.com/user-attachments/assets/b2aa026c-7a54-4830-811b-65d8d998bd7c) |
+|![image](https://github.com/user-attachments/assets/5c818425-7aa1-4d8e-bd16-0935368ec2d3) |
+
 
 ---
 

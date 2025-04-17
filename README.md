@@ -124,7 +124,7 @@ You can run this locally using Streamlit or deploy it on:
 
 ---
 
-## 📸 Screenshots (Coming Soon)
+## 📸 Screenshots
 
 | Train Mode | Predict Mode |
 |------------|---------------|

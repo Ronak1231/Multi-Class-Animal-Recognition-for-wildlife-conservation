@@ -141,8 +141,8 @@ You can run this locally using Streamlit or deploy it on:
 
 ## 📧 Contact
 
-- GitHub: [yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [Ronak Bansal]([https://github.com/yourusername](https://github.com/Ronak1231))
+- Email: ronakbansal12345@gmail.com
 
 ---
 

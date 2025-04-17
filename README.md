@@ -1,37 +1,149 @@
 
-# 🐾 Multi-Class Animal Classification
+<h1 align="center">🐾 Multi-Class Animal Recognition (MCAR)</h1>
 
-This project implements a Convolutional Neural Network (CNN) to classify images of animals into multiple categories using TensorFlow and Keras.
-
-## 🚀 Getting Started on Google Colab
-
-Follow these steps to run the notebook efficiently using GPU acceleration:
-
-### 1. Open in Google Colab
-- Upload the notebook `Multi_Class_Animal_Classification_Week 2.ipynb` to your Google Drive.
-- Open it with Google Colab.
-
-### 2. Change Runtime to GPU (T4 Recommended)
-- Go to the menu bar and select: `Runtime` > `Change runtime type`
-- Set **Hardware accelerator** to `GPU` (preferably T4 for faster training)
-- Click `Save`
-
-### 3. Run the Notebook
-- Execute each cell sequentially.
-- The model will load the dataset, preprocess it, build the CNN, train it, and visualize performance metrics.
-
-## 📁 Project Structure
-
-- **Data Preprocessing**: Loads and augments the dataset using `ImageDataGenerator`
-- **Model Building**: Constructs a custom CNN using Keras Sequential API
-- **Training**: Compiles and fits the model on the dataset
-- **Evaluation**: Evaluates performance using accuracy and loss metrics
-- **Visualization**: Displays training and validation curves
-
-## ⚡ Tips for Better Performance
-- Using a GPU (like Tesla T4) significantly speeds up training compared to CPU.
-- Ensure data augmentation is applied for better generalization.
+<p align="center">
+A deep learning-powered application that classifies 90 different animal species using TensorFlow, MobileNetV2, and Streamlit.
+</p>
 
 ---
 
-Feel free to fork this repo, modify the model, and experiment with different architectures or datasets!
+## 📌 Project Overview
+
+The **Multi-Class Animal Recognition (MCAR)** system enables users to train a deep learning model using a dataset of 90 animal categories, and predict the species of an uploaded image. With a seamless UI, transfer learning model, and GPU acceleration, MCAR is a powerful tool for educational and practical use cases in computer vision.
+
+---
+
+## ✅ Key Features
+
+- 🎯 **Image Classification**: Predicts from 90 animal categories.
+- 🚀 **Transfer Learning**: Built on **MobileNetV2** for high accuracy and efficiency.
+- 📊 **Training Visualization**: Real-time graphs of accuracy and loss.
+- 🧠 **Model Training**: Streamlit interface to train your own model.
+- 🔍 **Live Prediction**: Upload any animal image and get predictions.
+- 💾 **Model Saving**: Automatically saves trained model and class names.
+- 📥 **Dataset Downloader**: One-click KaggleHub integration.
+
+---
+
+## 📜 Prerequisites
+
+- Python 3.7+
+
+### Required Libraries
+
+Install all dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Optional
+
+- `scikit-learn`: For classification reports
+- GPU: Supports TensorFlow GPU for faster training
+
+---
+
+## 🛠 Setup Instructions
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/mcar-animal-classifier.git
+cd mcar-animal-classifier
+```
+
+### 2️⃣ (Optional) Setup a Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🔧 Application Modes
+
+### 🏋️ Train & Download Mode
+
+- Downloads the animal dataset using KaggleHub.
+- Allows configuration of **batch size** and **epochs**.
+- Trains and saves the model (`MCAR.keras`) and class names.
+
+### 🐶 Predict Mode
+
+- Upload an image (jpg/jpeg/png).
+- Get a predicted animal class with confidence score.
+
+---
+
+## 📂 File Structure
+
+```bash
+mcar-animal-classifier/
+│
+├── app.py                 # Streamlit application
+├── requirements.txt       # Python dependencies
+├── MCAR.keras             # Trained model
+├── class_names.txt        # Class label names
+├── README.md              # Project documentation
+```
+
+---
+
+## 🤖 Built With
+
+- **Python 3.7+**
+- **TensorFlow & Keras**
+- **MobileNetV2** (pretrained model)
+- **Streamlit** (for interactive UI)
+- **Matplotlib & Pandas** (visualization & tracking)
+- **KaggleHub** (dataset download)
+
+---
+
+## 🚚 Deployment
+
+You can run this locally using Streamlit or deploy it on:
+
+- [Streamlit Cloud](https://streamlit.io/cloud)
+- [Heroku](https://heroku.com)
+- [AWS EC2 / GCP / Azure]
+
+---
+
+## 📸 Screenshots (Coming Soon)
+
+| Train Mode | Predict Mode |
+|------------|---------------|
+| _Insert Training UI Screenshot_ | _Insert Prediction UI Screenshot_ |
+
+---
+
+## 🤝 Acknowledgments
+
+- [Sourav Banerjee](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals) for the animal dataset
+- TensorFlow & Streamlit community for documentation and support
+
+---
+
+## 📧 Contact
+
+- GitHub: [yourusername](https://github.com/yourusername)
+- Email: your.email@example.com
+
+---
+
+> ⭐ If you like this project, don’t forget to **star it on GitHub**!

@@ -4,4 +4,4 @@ numpy
 Pillow
 matplotlib
 kagglehub
-sklearn
+scikit-learn
